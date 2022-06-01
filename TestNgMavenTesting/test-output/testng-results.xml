@@ -2,32 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-31T00:32:05 IST" name="Default suite" finished-at="2022-05-31T00:32:44 IST" duration-ms="38930">
+  <suite started-at="2022-06-01T11:38:35 IST" name="Suite" finished-at="2022-06-01T11:38:54 IST" duration-ms="19696">
     <groups>
     </groups>
-    <test started-at="2022-05-31T00:32:05 IST" name="Default test" finished-at="2022-05-31T00:32:44 IST" duration-ms="38930">
-      <class name="ExtentReportWithTestNg">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ExtentReportWithTestNg@7b9a4292]" started-at="2022-05-31T00:32:03 IST" name="setup" finished-at="2022-05-31T00:32:05 IST" duration-ms="1500" status="PASS">
+    <test started-at="2022-06-01T11:38:35 IST" name="Test" finished-at="2022-06-01T11:38:54 IST" duration-ms="19696">
+      <class name="Test.TestNgMAvenTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.TestNgMAvenTest@44ebcd03]" started-at="2022-06-01T11:38:35 IST" name="setup" finished-at="2022-06-01T11:38:43 IST" duration-ms="7903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:ExtentReportWithTestNg@7b9a4292]" started-at="2022-05-31T00:32:05 IST" name="setupTest" finished-at="2022-05-31T00:32:16 IST" duration-ms="10998" status="PASS">
+        <test-method signature="runtest()[pri:0, instance:Test.TestNgMAvenTest@44ebcd03]" started-at="2022-06-01T11:38:43 IST" name="runtest" finished-at="2022-06-01T11:38:53 IST" duration-ms="10674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="tests()[pri:0, instance:ExtentReportWithTestNg@7b9a4292]" started-at="2022-05-31T00:32:16 IST" name="tests" finished-at="2022-05-31T00:32:42 IST" duration-ms="26774" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tests -->
-        <test-method is-config="true" signature="teardowntest()[pri:0, instance:ExtentReportWithTestNg@7b9a4292]" started-at="2022-05-31T00:32:43 IST" name="teardowntest" finished-at="2022-05-31T00:32:44 IST" duration-ms="1003" status="PASS">
+        </test-method> <!-- runtest -->
+        <test-method is-config="true" signature="teardowntest()[pri:0, instance:Test.TestNgMAvenTest@44ebcd03]" started-at="2022-06-01T11:38:53 IST" name="teardowntest" finished-at="2022-06-01T11:38:54 IST" duration-ms="1018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardowntest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:ExtentReportWithTestNg@7b9a4292]" started-at="2022-05-31T00:32:44 IST" name="TearDown" finished-at="2022-05-31T00:32:45 IST" duration-ms="1582" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- ExtentReportWithTestNg -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Test.TestNgMAvenTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
